@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deneme1</title>
+    <link rel="stylesheet" href="./images/destroyer (2).png" alt="savas gemisi">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=VT323&display=swap" rel="stylesheet">
+    <style>
+        .tasiyici0{
+            background-color: white;
+           
+        }
+        .isim{
+            text-align: center;
+            font-family: "VT323", monospace;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 75px;
+            padding-top: 1%;
+            color: #03346E;
+        }
+        .tasiyici1{
+            background-color: #03346E ;
+            color: white;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            height:auto;
+            font-size: 2rem;
+            font-family: sans-serif;
+            padding-left: 15%;
+            padding-right: 15%;
+            text-align: justify;
+            gap: 5%;
+            
+        }
+        .dho {
+            color: white;
+            font-family: sans-serif;
+            font-weight: 900;
+            font-size: 2 rem;
+            line-height: 1.3;
+            text-decoration: none;
+  
+        }
+        .dzkk{
+            color: white;
+            font-family: sans-serif;
+            font-size: 1 rem;
+            line-height: 1.3;
+            text-decoration: none;
+        }
+        .profil {
+            padding-bottom: 2%;
+            padding-top: 2%;
+            padding-left: 2%;
+            padding-right: 2%;
+            border-radius: 15%;
+
+        }
+        .aciklama{
+           
+            
+
+        }
+        .tasiyici2{
+            display: grid;
+            height: 1000px;
+            width: 100%;
+            background-color: #03346E;
+            grid-template-columns: repeat(8, auto);
+            grid-template-rows: repeat(8, auto);
+        }
+        .tasiyici3{
+            padding-top: 3%;
+            padding-bottom: 3%;
+            background-color: #03346E;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5rem;
+        }
+        .madde{
+            border-radius: 5%;
+        }
+        .bir{
+            color: white;
+            height: auto;
+            width: auto;
+            background-color: #6EACDA;
+            grid-row: 6/ 7;
+            grid-column: 3/ 4;
+            
+            
+        }
+        .iki{
+            height: auto;
+            width: auto;
+            background-color: #E2E2B6;
+            grid-row: 5 / 6;
+            grid-column: 4 / 5;    
+        
+       }
+       .madde-1:hover {
+            background-color: orange;
+            border-radius: 5%;
+       }
+       .madde-1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            
+       }
+       .uc{
+            background-color: #C9E6F0;
+            height: auto;
+            width: auto;
+            grid-row: 4/5;
+            grid-column: 5/6;
+            
+
+       }
+       .dort{
+            background-color: #F96E2A;
+            height: auto;
+            width: auto;
+            grid-row: 3/4;
+            grid-column: 6/7;
+    
+       }
+       h2{
+            font-family: sans-serif;
+            margin: 0;
+       }
+       .is-yeri{
+            font-family: sans-serif ;
+       }
+       .tarih{
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+       }
+       .ozgecmis, .iletisim-1{
+            color: #03346E;
+            text-align: center;
+            font-family: "VT323", monospace;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 75px;
+       }
+       footer{
+            text-align: center;
+            font-family: sans-serif;
+       }
+       .btn{
+            color: black;
+            font-family: sans-serif;
+            font-size: 2 rem;
+            line-height: 1.3;
+            text-decoration: none;
+       }
+       .deneme{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+       }
+       
+       @media (max-width: 1025px) {
+        .tasiyici2{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            
+            
+        }
+        .madde{
+            width: 100%;
+            height: 100%;
+            border-radius: 0%;
+        }
+        .tasiyici1{
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding-left: 2%;
+            padding-right: 2%;
+            padding-top: 4%;
+        }
+        .madde-1:hover {
+            background-color: orange;
+            border-radius: 0%;
+       }
+       .tasiyici3{
+            padding-top: 3%;
+            padding-bottom: 3%;
+            background-color: #03346E;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+       }
+    }
+    </style>
+</head>
+<body>
+    <section id="baslik">
+        <div class="tasiyici0">
+            <h1 class="isim"> Serhan Dönertaş</h1>
+        </div>
+        <div class="tasiyici1">
+            <img class="profil" src="./images/Screenshot 2023-12-16 000101.png" alt="profil fotoğrafi" height="250">
+            <p class="aciklama">Graduated as an Electric&Electronic Engineer from 
+            <a class="dho" href="https://dho.msu.edu.tr/" target="_blank">Turkish Naval Academy.</a> 
+            After leaving Turkish Navy I've worked different branches. 
+            Now I want my journey to studying and working as Web Developer and Designer.
+            These days my time is spent studying, researching, designing, and coding.
+            Out of the time studying you'll find me dreaming, drinking coffee & <del>cigarettes</del>, and petting my sweet dog.</p>
+            
+        </div>
+
+
+    </section>
+    <section id="calisma">
+        <div>
+            <h1 class="ozgecmis">A Brief History</h1>
+        </div>
+        <div class="tasiyici2">
+            <div class="madde bir">
+                <div class="madde-1" onclick="href='#';" style="cursor: pointer;">
+                    <a class="btn deneme" href="https://tr.wikipedia.org/wiki/T%C3%BCrk_Deniz_Kuvvetleri" target="_blank">
+                        <img class="ikon" src="./images/destroyer (2).png" alt="savas gemisi" height="75">
+                        <h2 class="rol">Naval Officer</h2>
+                        <p class="is-yeri">Turkish Naval Forces</p>
+                        <p class="tarih">2011-2017</p>
+                    </a>    
+                        
+                </div>
+            </div>
+            <div class="madde iki">
+                <div class="madde-1" onclick="href='#';" style="cursor: pointer;">
+                    
+                        <a class="btn deneme" href="#">
+                            <img class="ikon" src="./images/factory.png" alt="fabrika" height="75">
+                            <h2 class="rol">CAD/CAM Responsible</h2>
+                            <p class="is-yeri">Seçkin Metal</p>
+                            <p class="tarih">2017-2022</p>
+                        </a>
+                </div>
+            </div>
+            <div class="madde uc">
+                <div class="madde-1 onclick="href='#'; style="cursor: pointer;">
+                    
+                        <a class="btn deneme" href="#">
+                            <img class="ikon" src="./images/factory.png" alt="fabrika" height="75">
+                            <h2 class="rol">Production Engineer</h2>
+                            <p class="is-yeri">Idea Metal</p>
+                            <p class="tarih">2022-2024</p>
+                        </a>
+                </div>
+            </div>
+            <div class="madde dort">
+                <div class="madde-1" onclick="href='#';" style="cursor: pointer;">
+                    
+                        <a class="btn deneme" href="https://github.com/serhandonertas?tab=repositories">
+                            <img class="ikon" src="./images/world-wide-web.png" alt="web ikonu" height="75">
+                            <h2 class="rol">Web Developer</h2>
+                            <p class="is-yeri">Freelance / Open to Work</p>
+                            <p class="tarih">2024 - ~</p>
+                        </a>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="iletisim">
+        <div class="iletisim-1"><p>Contact</p></div>
+        <div class="tasiyici3">
+            <img class="deneme1" src="./images/linkedin (6).png" alt="linkedin ikonu" height="50">
+            <img class="deneme1" src="./images/instagram.png" alt="instagram ikonu" height="50">
+            <a href="https://www.behance.net/serhandonertas" rel="nofollow noreferrer noopener" target="_blank" >
+                <img class="deneme1" src="./images/behance.png" alt="behance ikonu" height="50">
+            </a>
+            <a class="btn" href="mailto:serhandonertass@gmail.com"><img class="deneme1" src="./images/communication.png" alt="e-posta ikonu" height="50"></a>
+
+            
+        </div>
+        <footer><p>© Serhan DÖNERTAŞ 2024</p></footer>
+
+    </section>
+    
+</body>
+</html>
